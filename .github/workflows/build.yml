@@ -28,9 +28,9 @@ jobs:
         if: ${{ inputs.platform == 'android' }}
         working-directory: android
         run: |
-          flutter build appbundle --release --flavor ${{ inputs.flavor }}
+          flutter build appbundle --release
       - name: Build iOS
         if: ${{ inputs.platform == 'ios' }}
         working-directory: ios
         run: |
-          flutter build ios --release --no-codesign --flavor ${{ inputs.flavor }}
+          flutter build ios --release --no-codesign
