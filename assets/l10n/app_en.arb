@@ -1,0 +1,18 @@
+{
+  "appName": "Memo",
+
+  "actionCreate": "Add memo",
+
+  "errorGeneric": "Something went wrong",
+
+  "labelNoMemosTitle": "No memos",
+  "labelNoMemosSubtitle": "You don't have created any memos yet",
+  "labelErrorMemosTitle": "Error",
+  "labelErrorMemosSubtitle": "An error occurred while loading the memos",
+  "labelTitle": "Title",
+  "labelDescription": "Description",
+
+  "snackbarErrorCreatingMemo": "Error creating memo",
+
+  "titleCreateMemo": "Create memo"
+}
